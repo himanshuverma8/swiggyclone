@@ -1,0 +1,360 @@
+/* Top Part Navigation Part */
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+display: grid;
+grid-template-areas: 
+ 'sec1'
+ 'sec2';
+}
+#sec1{
+    grid-area: sec1;
+    width: 55%;
+    height: 550px;
+}
+#sec2{
+    grid-area: sec2;
+    width: 45%;
+    height: 550px;
+    background-image: url(/Lunch1_vlksgq.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    font-family: Helvetica, arial, Neue,sans-serif;
+    overflow-x: hidden;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    /* position: relative; */
+    padding-bottom: 100px;
+    /* display: flex;
+    flex-direction: row; */
+    margin-bottom: 60px;
+}
+.top-1{
+    padding-right: 100px;
+    margin-bottom: 30px;
+}
+.swiggy-logo{
+    fill: #fc8019;
+    margin-top: 60px;
+    margin-left: 128px;
+}
+.top-1 ul li{
+   list-style: none; 
+   font-weight: bold;
+   
+}
+.top-1 ul li a{
+  text-decoration: none;
+  color: unset;
+}
+#log-in{
+    position: absolute;
+    top: 72px;
+    left: 610px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Tilt Warp', cursive;
+}
+#log-in a:hover{
+    color: #fc8019;
+}
+#sign-up{
+    position: absolute;
+    top: 60px;
+    left: 690px;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    width: 74px;
+    height:20px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-family: 'Tilt Warp', cursive;
+}
+.top-image-section{
+    /* display: none; */
+}
+.top-image-section img{
+    /* position: absolute;
+    top: 0;
+    right: 0; */
+    left: 100px;
+    overflow: hidden;
+    display: inline;
+    height: 95.2%;
+    width: 682px;
+}
+.form{
+    display: flex;
+    margin-left: 140px;
+    padding: 16px 0px;
+}
+ul{
+    display: flex;
+}
+.top-container{
+    margin-left: 130px;
+    margin-top: -64px;
+    padding: 10px;
+}
+#hungry-txt{
+    /* position: absolute;
+    top: 234px;
+    left: 276px; */
+    font-size: 50px;
+    padding-bottom: 18px;
+}
+.btn {
+    border: none;
+    font-family: 'Tilt Warp', cursive;
+    color: white;
+    font-size: 20px;
+    width: 134px;
+    background: #fc8019;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .form input{
+    background-image: url("/locateme.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-left: 20px;
+    width: 448px;
+    height: 56px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    border: 1px solid black;
+  }
+  .form input::placeholder{
+    font-size: 18px;
+    text-align: left;
+  }
+  .form input:focus{
+    border-color: #fc8019;
+    outline: none;
+  }
+  p{
+    font-size: 25px;
+  }
+  #text-des{
+    color: #686b78;
+    letter-spacing: -3;
+  }
+  h3{
+    font-weight: 400;
+    font-size: 15px;
+    color: #a9abb2;
+    margin: 30px 0 10px;
+    letter-spacing: -.2px;
+    text-transform: uppercase;
+  }
+  #listofcities li{
+    list-style: none;
+  }
+  #listofcities li{
+    list-style: none;
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 8px;
+    color: #686b78;
+    line-height: 1.5;
+  }
+  #listofcities li:nth-child(2n){
+    color: #93959f;
+  }
+  
+  .con2{
+    margin-left: 130px;
+  }
+  .con2 p{
+    color: #93959f;
+    font-size: 16px;
+    font-weight: 600;
+  }
+.section-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #2b1e16;
+    padding: 0 20px;
+    height: 403px;
+   overflow-x: hidden;
+    margin-top: -190px;
+}
+.img-con img{
+    display: block;
+    margin: auto;
+    width: 105px;
+    height: 199px;
+}
+.img-con h3{
+    color: white;
+    font-size: 18px;
+    font-family: 'Bree Serif', serif;
+/* font-family: 'Merriweather', serif; */
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Sacramento', cursive; */
+font-family: 'Tilt Warp', cursive;
+    font-weight: bold;
+    text-align: center;
+}
+.img-con p{
+    font-size: 15px;
+    width: 260px;
+    margin-top: 10px;
+    color: #e0cbc1;
+    line-height: 1.3;
+}
+.section-2{
+    height: 570px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0px;
+}
+.con3 img{
+    display: block;
+    width: 384px;
+    height: 489px;
+}
+.download-icon img{
+    display: inline;
+    height: 54px;
+    width: 180px;
+    padding: 10px;
+}
+#des-con3 h1{
+    width: 48%;
+    padding: 12px;
+    font-size: 40px;
+}
+#des-con3 p{
+    width: 65%;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 26px;
+}
+#des-con3{
+    margin-left: 50px;
+}
+#img-1{
+    margin-top: -81px;
+}
+#img-2{
+    margin-top: 82px;
+}
+footer{
+    height: 460px;
+    background-color: #000;
+}
+.sub-footer{
+    display: flex;
+    justify-content: space-around;
+}
+#copright-foooter{
+    background-color: #000;
+    color: rgba(100, 100, 100, 0.7);
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: 'Tilt Warp', cursive;
+    font-size: 20px;
+
+}
+.sub-footer ul{
+    display: flex;
+    flex-direction: column;
+}
+.sub-footer ul li{
+    color: white;
+    list-style: none;
+    line-height: 2;
+    font-weight: 300;
+}
+.icons-download img{
+    border: 1px solid white;
+    border-radius: 12px;
+display: block;
+height: 54px;
+    width: 180px;
+    padding: 6px;
+}
+.icons-download img:nth-child(2){
+ margin: 30px;
+}
+.icons-download img:nth-child(1){
+ margin: 30px;
+}
+.icons-download img:nth-child(2):hover{
+ cursor: pointer;
+ transform: scale(1.2);
+}
+.icons-download img:nth-child(1):hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.contact{
+    margin-bottom: 100px;
+}
+.sub-footer{
+    padding: 45px;
+}
+.sub-footer h3{
+    font-size: 18px;
+    font-family: 'Tilt Warp', cursive;
+    color: gray;
+    margin-bottom: 26px;
+}
+@media only screen and (max-width: 768px) {
+    .section-2 {
+        flex-wrap: wrap;
+        height: auto;
+    }
+    
+    .con3 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    #des-con3 {
+        margin: 0;
+    }
+    
+    #img-1, #img-2 {
+        margin-top: 0;
+    }
+    
+    #des-con3 h1 {
+        font-size: 30px;
+        width: 100%;
+    }
+    
+    #des-con3 p {
+        font-size: 18px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .download-icon img {
+        height: 40px;
+        max-width: 160px;
+        padding: 8px;
+    }
+}

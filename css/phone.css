@@ -1,0 +1,38 @@
+@media screen and (max-width: 768px){
+    body{
+        overflow-x: hidden;
+    }
+    .top-1{
+        margin: auto;
+        overflow-x: hidden;
+    }
+    .top-image-section{
+        display: none;
+    }
+    des-con3 h1 {
+        width: 48%;
+        padding: 12px;
+        font-size: 26px;
+    }
+    .section-1{
+        overflow-x: hidden;
+    }
+     /* footer */
+     footer{
+        height: 1000px;
+        overflow-x: hidden;
+        display: block;
+     }
+     .sub-footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        
+    }
+    header{
+        overflow-x: hidden;
+       display: block;
+    }
+    
+}
