@@ -3,25 +3,6 @@
     margin: 0;
     padding: 0;
 }
-header{
-display: grid;
-grid-template-areas: 
- 'sec1'
- 'sec2';
-}
-#sec1{
-    grid-area: sec1;
-    width: 55%;
-    height: 550px;
-}
-#sec2{
-    grid-area: sec2;
-    width: 45%;
-    height: 550px;
-    background-image: url(/Lunch1_vlksgq.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 body{
     font-family: Helvetica, arial, Neue,sans-serif;
     overflow-x: hidden;
@@ -320,41 +301,4 @@ height: 54px;
     font-family: 'Tilt Warp', cursive;
     color: gray;
     margin-bottom: 26px;
-}
-@media only screen and (max-width: 768px) {
-    .section-2 {
-        flex-wrap: wrap;
-        height: auto;
-    }
-    
-    .con3 {
-        width: 100%;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-    
-    #des-con3 {
-        margin: 0;
-    }
-    
-    #img-1, #img-2 {
-        margin-top: 0;
-    }
-    
-    #des-con3 h1 {
-        font-size: 30px;
-        width: 100%;
-    }
-    
-    #des-con3 p {
-        font-size: 18px;
-        width: 100%;
-        margin-bottom: 20px;
-    }
-    
-    .download-icon img {
-        height: 40px;
-        max-width: 160px;
-        padding: 8px;
-    }
 }
