@@ -94,6 +94,9 @@ ul{
     font-size: 50px;
     padding-bottom: 18px;
 }
+#btn-1{
+    display: none;
+}
 .btn {
     border: none;
     font-family: 'Tilt Warp', cursive;

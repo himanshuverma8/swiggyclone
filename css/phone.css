@@ -1,162 +1,156 @@
 @media screen and (max-width: 768px){
-   /* Default styles */
-   .container{
-    overflow-x: hidden;
-   }
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Helvetica, Arial, sans-serif;
+  .top-image-section{
+    display: none;
   }
-  
-  body {
-    overflow-x: hidden;
-  }
-  
-  header {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 60px;
-    margin-bottom: 30px;
-  }
-  
   .top-1 {
-    padding-right: 100px;
-  }
-  
-  .top-1 ul li {
-    list-style: none;
-    font-weight: bold;
-  }
-  
-  .top-1 ul li a {
-    text-decoration: none;
-    color: unset;
-  }
-  
-  #log-in {
-    position: absolute;
-    top: 72px;
-    left: 610px;
-    color: black;
-    font-weight: bold;
-    font-family: 'Tilt Warp', cursive;
-  }
-  
-  #log-in a:hover {
-    color: #fc8019;
-  }
-  
-  #sign-up {
-    position: absolute;
-    top: 60px;
-    left: 690px;
-    color: white;
-    background-color: black;
-    display: inline-block;
-    width: 74px;
-    height: 20px;
-    text-align: center;
-    padding: 10px 16px;
-    font-family: 'Tilt Warp', cursive;
-  }
-  
-  .top-image-section img {
-    left: 100px;
-    display: inline;
-    height: 95.2%;
-    width: 100%;
-  }
-  
-  .form {
     display: flex;
-    flex-wrap: wrap;
-    margin-left: 140px;
-    padding: 16px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 400px;
+    margin: auto; */
+}
+.form{
+  display: block;
+  width: 90px;
+  margin: auto;
+}
+  .container{
+    overflow-x: hidden;
   }
-  
-  .form input {
-    background-image: url("/locateme.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right;
-    padding-left: 20px;
-    width: 100%;
-    height: 56px;
-    font-size: 18px;
-    font-weight: bold;
-    text-align: left;
-    border: 1px solid black;
+  /* Top-Section */
+  .swiggy-logo{
+    height: 150px;
+    width: 150px;
   }
-  
-  .form input::placeholder {
-    font-size: 18px;
-    text-align: left;
-  }
-  
-  .form input:focus {
-    border-color: #fc8019;
-    outline: none;
-  }
-  
-  .btn {
-    border: none;
-    font-family: 'Tilt Warp', cursive;
-    font-size: 20px;
-    width: 100%;
-    background: #fc8019;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    text-align: center;
-  }
-  
-  .btn:hover {
-    cursor: pointer;
-    text-decoration: none;
-  }
-  
-  p {
-    font-size: 25px;
-  }
-  
-  #text-des {
-    color: #686b78;
-    letter-spacing: -3px;
-  }
-  
-  h3 {
-    font-weight: 400;
-    font-size: 15px;
-    color: #a9abb2;
-    margin: 30px 0 10px;
-    letter-spacing: -0.2px;
-    text-transform: uppercase;
-  }
-  
-  #listofcities li {
-    list-style: none;
-    font-weight: 600;
-    font-size: 16px;
-    margin-right: 8px;
-    color: #686b78;
-    line-height: 1.5;
-  }
-  
-  #listofcities li:nth-child(2n) {
-    color: #93959f;
-  }
-  
-  .con2 {
-    margin-left: 130px;
-  }
-  
-  .con2 p {
-    color: #93959f;
-  
-  }
-    .section-1{
-        overflow-x: hidden;
-    } 
+  #hungry-txt {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+#text-des {
+  color: #686b78;
+  font-size: 15px;
+}
+.form input {
+  background-image: url(/locateme.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-left: 16px;
+  width: 200px;
+  height: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+  border: 1px solid black;
+}
+.form input::placeholder{
+  font-size: 9.2px;
+  text-align: left;
+}
+.btn {
+  border: none;
+  font-family: 'Tilt Warp', cursive;
+  color: white;
+  font-size: 12px;
+  width: 120px;
+  background: #fc8019;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display: block;
+}
+#log-in {
+  position: absolute;
+  top: 72px;
+  left: 460px;
+  color: black;
+  font-weight: bold;
+  font-family: 'Tilt Warp', cursive;
+  font-size: 15px;
+  display: none;
+}
+#sign-up {
+  position: absolute;
+  top: 60px;
+  left: 536px;
+  color: white;
+  background-color: black;
+  display: inline-block;
+  width: 70px;
+  height: 16px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-family: 'Tilt Warp', cursive;
+  font-size: 14px;
+  display: none;
+}
+h3{
+  font-size: 12px;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#listofcities li {
+  font-size: 12px;;
+}
+.con2 p {
+  display: none;
+}
+.section-1{
+  flex-wrap: wrap;
+  margin-top: -144px;
+}
+#img-2{
+  display: none;
+}
+#img-1{
+  display: none;
+}
+.section-2{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer{
+  height: 142vh;
+}
+.sub-footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.contact {
+  margin-bottom: 0px;
+}
+/* .con-top-1{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+} */
+.btn{
+  display: none;
+}
+#btn-1{
+  display: block;
+  border: none;
+  font-family: 'Tilt Warp', cursive;
+  color: white;
+  font-size: 16px;
+  width: 140px;
+  background: #fc8019;
+  padding: 8px 18px 8px 18px;
+  margin-left: 120px;
+  text-decoration: none;
+  display: block;
+}
+.icons-download{
+  display: none;
+}
 }
